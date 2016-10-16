@@ -3,7 +3,7 @@ guid: 221365bb8f2843446b6964cd7b3a8176
 timeCreated: 1443967480
 licenseType: Store
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: belly
     100002: Bone001
@@ -247,12 +247,17 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations:
@@ -266,7 +271,8 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -282,41 +288,43 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: face
+      - path: Cape
         weight: 1
-      - path: face_Damage
+      - path: Face
         weight: 1
-      - path: fur
+      - path: Face_Damage
         weight: 1
-      - path: helmet_close
+      - path: Fur
         weight: 1
-      - path: helmet_open
+      - path: Helmet_Close
         weight: 1
-      - path: Left_Bottom_arm
+      - path: Helmet_Open
         weight: 1
-      - path: Left_calf
+      - path: Left_Bottom_Arm
         weight: 1
-      - path: Left_hand
+      - path: Left_Calf
         weight: 1
-      - path: Left_leg
+      - path: Left_Hand
         weight: 1
-      - path: Left_sword
+      - path: Left_Leg
         weight: 1
-      - path: Left_Upper_arm
+      - path: Left_Sword
         weight: 1
-      - path: pelvis
+      - path: Left_Upper_Arm
         weight: 1
-      - path: Right_Bottom_arm
+      - path: Pelvis
         weight: 1
-      - path: Right_calf
+      - path: Right_Bottom_Arm
         weight: 1
-      - path: Right_hand
+      - path: Right_Calf
         weight: 1
-      - path: Right_leg
+      - path: Right_Hand
         weight: 1
-      - path: Right_sword
+      - path: Right_Leg
         weight: 1
-      - path: Right_Upper_arm
+      - path: Right_Sword
+        weight: 1
+      - path: Right_Upper_Arm
         weight: 1
       - path: Root
         weight: 1
@@ -326,7 +334,7 @@ ModelImporter:
         weight: 1
       - path: Root/Dummy001/Bone003/Bone004
         weight: 1
-      - path: Root/Dummy001/Bone003/Bone004/belly
+      - path: Root/Dummy001/Bone003/Bone004/Belly
         weight: 1
       - path: Root/Dummy001/Bone003/Bone004/Bone005
         weight: 1
@@ -345,6 +353,14 @@ ModelImporter:
       - path: Root/Dummy001/Bone003/Bone004/Bone005/Bone017/Bone018
         weight: 1
       - path: Root/Dummy001/Bone003/Bone004/Bone005/Bone017/Bone018/Bone019
+        weight: 1
+      - path: Root/Dummy001/Bone003/Bone004/Bone005/Bone020
+        weight: 1
+      - path: Root/Dummy001/Bone003/Bone004/Bone005/Bone020/Bone021
+        weight: 1
+      - path: Root/Dummy001/Bone003/Bone004/Bone005/Bone020/Bone021/Bone022
+        weight: 1
+      - path: Root/Dummy001/Bone003/Bone004/Bone005/Bone020/Bone021/Bone022/Bone023
         weight: 1
       - path: Root/Dummy001/Bone003/Bone004/Bone005/IK Chain001
         weight: 1
@@ -370,12 +386,13 @@ ModelImporter:
         weight: 1
       - path: Root/IK Chain004
         weight: 1
-      - path: shield
+      - path: Shield
         weight: 1
-      - path: upper_body
+      - path: Upper_Body
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -396,24 +413,25 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
