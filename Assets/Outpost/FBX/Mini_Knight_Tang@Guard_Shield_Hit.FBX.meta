@@ -1,0 +1,216 @@
+fileFormatVersion: 2
+guid: ec92ecae04b61cd44bf4e08dfc461af6
+timeCreated: 1444056755
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Belly
+    100002: Bone001
+    100004: Bone002
+    100006: Bone003
+    100008: Bone004
+    100010: Bone005
+    100012: Bone006
+    100014: Bone007
+    100016: Bone008
+    100018: Bone009
+    100020: Bone010
+    100022: Bone011
+    100024: Bone012
+    100026: Bone013
+    100028: Bone014
+    100030: Bone015
+    100032: Bone016
+    100034: Bone017
+    100036: Bone018
+    100038: Bone019
+    100040: Dummy001
+    100042: Face
+    100044: Face_Damage
+    100046: Fur
+    100048: Helmet_Close
+    100050: Helmet_Open
+    100052: IK Chain001
+    100054: IK Chain002
+    100056: IK Chain003
+    100058: IK Chain004
+    100060: Left_Bottom_Arm
+    100062: Left_Calf
+    100064: Left_Hand
+    100066: Left_Leg
+    100068: Left_Sword
+    100070: Left_Upper_Arm
+    100072: //RootNode
+    100074: Pelvis
+    100076: Right_Bottom_Arm
+    100078: Right_Calf
+    100080: Right_Hand
+    100082: Right_Leg
+    100084: Right_Sword
+    100086: Right_Upper_Arm
+    100088: Root
+    100090: Shield
+    100092: Upper_Body
+    100094: Bone020
+    100096: Bone021
+    100098: Bone022
+    100100: Bone023
+    100102: Cape
+    400000: Belly
+    400002: Bone001
+    400004: Bone002
+    400006: Bone003
+    400008: Bone004
+    400010: Bone005
+    400012: Bone006
+    400014: Bone007
+    400016: Bone008
+    400018: Bone009
+    400020: Bone010
+    400022: Bone011
+    400024: Bone012
+    400026: Bone013
+    400028: Bone014
+    400030: Bone015
+    400032: Bone016
+    400034: Bone017
+    400036: Bone018
+    400038: Bone019
+    400040: Dummy001
+    400042: Face
+    400044: Face_Damage
+    400046: Fur
+    400048: Helmet_Close
+    400050: Helmet_Open
+    400052: IK Chain001
+    400054: IK Chain002
+    400056: IK Chain003
+    400058: IK Chain004
+    400060: Left_Bottom_Arm
+    400062: Left_Calf
+    400064: Left_Hand
+    400066: Left_Leg
+    400068: Left_Sword
+    400070: Left_Upper_Arm
+    400072: //RootNode
+    400074: Pelvis
+    400076: Right_Bottom_Arm
+    400078: Right_Calf
+    400080: Right_Hand
+    400082: Right_Leg
+    400084: Right_Sword
+    400086: Right_Upper_Arm
+    400088: Root
+    400090: Shield
+    400092: Upper_Body
+    400094: Bone020
+    400096: Bone021
+    400098: Bone022
+    400100: Bone023
+    400102: Cape
+    4300000: Face_Damage
+    4300002: Helmet_Close
+    4300004: Shield
+    4300006: Belly
+    4300008: Helmet_Open
+    4300010: Fur
+    4300012: Pelvis
+    4300014: Right_Leg
+    4300016: Upper_Body
+    4300018: Left_Leg
+    4300020: Left_Upper_Arm
+    4300022: Right_Calf
+    4300024: Left_Calf
+    4300026: Right_Upper_Arm
+    4300028: Left_Bottom_Arm
+    4300030: Right_Bottom_Arm
+    4300032: Right_Sword
+    4300034: Right_Hand
+    4300036: Left_Hand
+    4300038: Left_Sword
+    4300040: Face
+    4300042: Cape
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Belly
+    13700002: Face
+    13700004: Face_Damage
+    13700006: Fur
+    13700008: Helmet_Close
+    13700010: Helmet_Open
+    13700012: Left_Bottom_Arm
+    13700014: Left_Calf
+    13700016: Left_Hand
+    13700018: Left_Leg
+    13700020: Left_Sword
+    13700022: Left_Upper_Arm
+    13700024: Pelvis
+    13700026: Right_Bottom_Arm
+    13700028: Right_Calf
+    13700030: Right_Hand
+    13700032: Right_Leg
+    13700034: Right_Sword
+    13700036: Right_Upper_Arm
+    13700038: Shield
+    13700040: Upper_Body
+    13700042: Cape
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
