@@ -3,7 +3,7 @@ guid: 5a7f3695ff16ab242adf59d3c8429aff
 timeCreated: 1444057317
 licenseType: Store
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: Belly
     100002: Bone001
@@ -109,53 +109,97 @@ ModelImporter:
     400098: Bone022
     400100: Bone023
     400102: Cape
-    4300000: Face_Damage
-    4300002: Helmet_Close
-    4300004: Shield
-    4300006: Belly
-    4300008: Helmet_Open
-    4300010: Fur
-    4300012: Pelvis
-    4300014: Right_Leg
-    4300016: Upper_Body
-    4300018: Left_Leg
-    4300020: Left_Upper_Arm
-    4300022: Right_Calf
-    4300024: Left_Calf
-    4300026: Right_Upper_Arm
-    4300028: Left_Bottom_Arm
-    4300030: Right_Bottom_Arm
-    4300032: Right_Sword
-    4300034: Right_Hand
-    4300036: Left_Hand
-    4300038: Left_Sword
-    4300040: Face
-    4300042: Cape
+    2300000: Face_Damage
+    2300002: Helmet_Close
+    2300004: Shield
+    2300006: Belly
+    2300008: Helmet_Open
+    2300010: Fur
+    2300012: Pelvis
+    2300014: Right_Leg
+    2300016: Upper_Body
+    2300018: Left_Leg
+    2300020: Left_Upper_Arm
+    2300022: Right_Calf
+    2300024: Left_Calf
+    2300026: Right_Upper_Arm
+    2300028: Left_Bottom_Arm
+    2300030: Right_Bottom_Arm
+    2300032: Right_Sword
+    2300034: Right_Hand
+    2300036: Left_Hand
+    2300038: Left_Sword
+    2300040: Face
+    2300042: Cape
+    3300000: Walk
+    3300002: //RootNode
+    3300004: //RootNode
+    3300006: Belly
+    3300008: Face
+    3300010: Face_Damage
+    3300012: Fur
+    3300014: Helmet_Close
+    3300016: Helmet_Open
+    3300018: Left_Bottom_Arm
+    3300020: Left_Calf
+    3300022: Left_Hand
+    3300024: Left_Leg
+    3300026: Left_Sword
+    3300028: Left_Upper_Arm
+    3300030: Pelvis
+    3300032: Right_Bottom_Arm
+    3300034: Right_Calf
+    3300036: Right_Hand
+    3300038: Right_Leg
+    3300040: Right_Sword
+    3300042: Right_Upper_Arm
+    4300000: Shield
+    4300002: Upper_Body
+    4300004: Cape
+    4300006: Face_Damage
+    4300008: Helmet_Close
+    4300010: Belly
+    4300012: Helmet_Open
+    4300014: Fur
+    4300016: Pelvis
+    4300018: Right_Leg
+    4300020: Left_Leg
+    4300022: Left_Upper_Arm
+    4300024: Right_Calf
+    4300026: Left_Calf
+    4300028: Right_Upper_Arm
+    4300030: Left_Bottom_Arm
+    4300032: Right_Bottom_Arm
+    4300034: Right_Sword
+    4300036: Right_Hand
+    4300038: Left_Hand
+    4300040: Left_Sword
+    4300042: Face
     7400000: Walk
     9500000: //RootNode
     11100000: //RootNode
     13700000: Belly
-    13700002: Face
-    13700004: Face_Damage
-    13700006: Fur
-    13700008: Helmet_Close
-    13700010: Helmet_Open
-    13700012: Left_Bottom_Arm
-    13700014: Left_Calf
-    13700016: Left_Hand
-    13700018: Left_Leg
-    13700020: Left_Sword
-    13700022: Left_Upper_Arm
-    13700024: Pelvis
-    13700026: Right_Bottom_Arm
-    13700028: Right_Calf
-    13700030: Right_Hand
-    13700032: Right_Leg
-    13700034: Right_Sword
-    13700036: Right_Upper_Arm
-    13700038: Shield
-    13700040: Upper_Body
-    13700042: Cape
+    13700002: Cape
+    13700004: Face
+    13700006: Face_Damage
+    13700008: Fur
+    13700010: Helmet_Close
+    13700012: Helmet_Open
+    13700014: Left_Bottom_Arm
+    13700016: Left_Calf
+    13700018: Left_Hand
+    13700020: Left_Leg
+    13700022: Left_Sword
+    13700024: Left_Upper_Arm
+    13700026: Pelvis
+    13700028: Right_Bottom_Arm
+    13700030: Right_Calf
+    13700032: Right_Hand
+    13700034: Right_Leg
+    13700036: Right_Sword
+    13700038: Right_Upper_Arm
+    13700040: Shield
+    13700042: Upper_Body
   materials:
     importMaterials: 1
     materialName: 0
@@ -163,12 +207,17 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations:
@@ -182,7 +231,8 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -292,6 +342,7 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -312,24 +363,25 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

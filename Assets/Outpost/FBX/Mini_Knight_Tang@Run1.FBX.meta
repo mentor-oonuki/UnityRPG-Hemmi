@@ -3,7 +3,7 @@ guid: 7740d19bf65c8794a828839afd8987a1
 timeCreated: 1444389917
 licenseType: Store
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: Belly
     100002: Bone001
@@ -163,12 +163,17 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations:
@@ -182,7 +187,8 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -197,6 +203,8 @@ ModelImporter:
       events: []
       transformMask:
       - path: 
+        weight: 1
+      - path: Cape
         weight: 1
       - path: Face
         weight: 1
@@ -262,6 +270,14 @@ ModelImporter:
         weight: 1
       - path: Root/Dummy001/Bone003/Bone004/Bone005/Bone017/Bone018/Bone019
         weight: 1
+      - path: Root/Dummy001/Bone003/Bone004/Bone005/Bone020
+        weight: 1
+      - path: Root/Dummy001/Bone003/Bone004/Bone005/Bone020/Bone021
+        weight: 1
+      - path: Root/Dummy001/Bone003/Bone004/Bone005/Bone020/Bone021/Bone022
+        weight: 1
+      - path: Root/Dummy001/Bone003/Bone004/Bone005/Bone020/Bone021/Bone022/Bone023
+        weight: 1
       - path: Root/Dummy001/Bone003/Bone004/Bone005/IK Chain001
         weight: 1
       - path: Root/Dummy001/Bone003/Bone004/Bone005/IK Chain002
@@ -292,6 +308,7 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -299,7 +316,7 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
-    swapUVChannels: 0
+    swapUVChannels: 1
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
@@ -312,24 +329,25 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 2
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
